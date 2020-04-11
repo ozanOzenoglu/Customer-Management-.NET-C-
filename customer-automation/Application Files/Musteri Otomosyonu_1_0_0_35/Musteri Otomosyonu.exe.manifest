@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Musteri Otomosyonu.exe" version="1.0.0.35" publicKeyToken="ef0c722f69e987d4" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="1345627902_customers.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Musteri Otomosyonu" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Musteri Otomosyonu.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CarlosAg.ExcelXmlWriter.dll" size="110592">
+      <assemblyIdentity name="CarlosAg.ExcelXmlWriter" version="1.0.0.6" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1MjNPXWS6slkPT1pBN7iN9T7sX0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Db4objects.Db4o.dll" size="763904">
+      <assemblyIdentity name="Db4objects.Db4o" version="8.0.249.16098" publicKeyToken="6199CD4F203AA8EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>51ImvydnUfXrUXHUrulOXz0EYlA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Db4objects.Db4o.CS.dll" size="100352">
+      <assemblyIdentity name="Db4objects.Db4o.CS" version="8.0.249.16098" publicKeyToken="6199CD4F203AA8EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>s8UWTHQ4sUUvo8bnGLxbII+5Vlw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Db4objects.Db4o.Linq.dll" size="55808">
+      <assemblyIdentity name="Db4objects.Db4o.Linq" version="8.0.249.16098" publicKeyToken="6199CD4F203AA8EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>wvW1/V5MKC27TfUakOcIQDfL6zM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Musteri Otomosyonu.exe" size="318976">
+      <assemblyIdentity name="Musteri Otomosyonu" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lsFGYxf5qHM/fN0O2rNJ+bCAnSk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1345627902_customers.ico" size="5430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>53b9CmGiy8i2mKLkGm0mq06sCMc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="datafiles\DataBase.yap" size="177129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EwclyoXMbvfP0GUtJd415tYgrxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Freiburger-PC\Freiburger" issuerKeyHash="f2d3ac6c1c01820b8bc69fa6a1ba410a734e1fd9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BrD0jgfFOB8PTwodcmSVL39ubsY=</DigestValue></Reference></SignedInfo><SignatureValue>dF7nXrxAtmis6s7wBigpR3eb5MYr7GF+p/ApvZNOve7Ge1q/719FtU/xruN2OFAtnk54RH3WtjLnYVkYP9awcvMFHnMJwtLzxAdX9suk/LIETekBoF2arTcFwLbJaMauL4pXk+6+788WjxfIJzQxMPE76XJQQQApL/xjiltMzhY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pnSmZSZd6CMXQ9P8+4yBs2Og42FSvwc+YE59JFjD3oaUgYPobKiLiNUBLjtiN/2PvGhnqDsnCHSQQiJMihe+9ncWeBvLz8kAhbYuyz3Pan+VAkqf8viooj5omOSdxmWI2fayaiKnGIf8TbDVXWn8VLxe52nlXm5puUoKYWCL4S8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c66e6e7f2f9564721d0a4f0f1f38c5078ef4b006" Description="" Url=""><as:assemblyIdentity name="Musteri Otomosyonu.exe" version="1.0.0.35" publicKeyToken="ef0c722f69e987d4" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Freiburger-PC\Freiburger</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TRhIBDavlv48gQvV9KVKc2mctUQ=</DigestValue></Reference></SignedInfo><SignatureValue>JrH0ACKk7hozP+MXBBhGfo3TW6tiA7VsTsT4kbN3xxX7ohMtafbRyfLNUQZdsV6AwI6mmIDiFqq6dCYfdbJnPr5Dys24wFTY36VezMvnN5NVzEwGkluvkZSawyxjUbya/QjJaRN+O3yhNaPDhOPQYB37LncCV/IHN7WqNrkjH8w=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pnSmZSZd6CMXQ9P8+4yBs2Og42FSvwc+YE59JFjD3oaUgYPobKiLiNUBLjtiN/2PvGhnqDsnCHSQQiJMihe+9ncWeBvLz8kAhbYuyz3Pan+VAkqf8viooj5omOSdxmWI2fayaiKnGIf8TbDVXWn8VLxe52nlXm5puUoKYWCL4S8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQEsX0S4YPL79NYjAkyNBx6TANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAARgByAGUAaQBiAHUAcgBnAGUAcgAtAFAAQwBcAEYAcgBlAGkAYgB1AHIAZwBlAHIwHhcNMTUxMjI3MTIxNTEzWhcNMTYxMjI2MTgxNTEzWjA7MTkwNwYDVQQDHjAARgByAGUAaQBiAHUAcgBnAGUAcgAtAFAAQwBcAEYAcgBlAGkAYgB1AHIAZwBlAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKZ0pmUmXegjF0PT/PuMgbNjoONhUr8HPmBOfSRYw96GlIGD6Gyoi4jVAS47Yjf9j7xoZ6g7Jwh0kEIiTIoXvvZ3Fngby8/JAIW2Lss9z2p/lQJKn/L4qKI+aJjkncZliNn2smoipxiH/E2w1V1p/FS8Xudp5V5uablKCmFgi+EvAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAXeHdOv3HQKNcT5q0QOoEPD3RekwIqonq7j+MNREYwcmB/GZ3UAftKoqRnDOqzN9sljFe07RD7Q9Lq1ndevNhwkrA/lMzivHT8++ZCbsBhxQOqvTQriEkvMjjvzgYm60AR3X4JntNwiUeC0UOGRSC0035y4LbRXzQE9g1SOs4nAI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
